@@ -1,8 +1,7 @@
 # Team WPI Integrator Chains
 A submission to the FMRBenchmark contest by California Institute of Technology <http://fmrchallenge.org/> at ICRA 2016. Team WPI submits two controllers to the Scaling Chains of Integrators domain, `wpi_solution_01` and `wpi_solution_02`
 
-Rohit Sheth, Nishan Srishankar, Joseph McMahon
-Professor Jie Fu
+Rohit Sheth, Nishan Srishankar, Joseph McMahon, Professor Jie Fu
 
 Please see FMRB's Github (https://github.com/fmrchallenge/fmrbenchmark) and its installation and usage documentation at (http://docs.fmrchallenge.org/en/latest/integrator_chains.html)
 
