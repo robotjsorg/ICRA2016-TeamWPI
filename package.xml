@@ -1,0 +1,19 @@
+<package>
+  <name>team_wpi_integrator_chains</name>
+  <version>0.0.0</version>
+  <description>
+    Team WPI's submission for the "scaling chains of integrators" problem domain.
+  </description>
+  <maintainer email="jmcmahon443@gmail.com">SCL</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>std_msgs</run_depend>
+  <build_depend>dynamaestro</build_depend>
+  <run_depend>dynamaestro</run_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>rospy</run_depend>
+  <build_depend></build_depend>
+  <run_depend></run_depend>
+</package>

@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="team_wpi_integrator_chains" name="$(anon wpi_solution_02)" type="wpi_solution_02.py" output="screen" />
+</launch>
