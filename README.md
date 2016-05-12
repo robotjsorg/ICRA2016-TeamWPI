@@ -9,7 +9,7 @@ Professor Jie Fu
 Please see FMRB's Github (https://github.com/fmrchallenge/fmrbenchmark) and its installation and usage documentation at (http://docs.fmrchallenge.org/en/latest/integrator_chains.html)
 
 ## Instructions if FMRB is already installed
-1. Download `install.sh` and run it in Terminal with `./install.sh`. Or download one of the Team WPI ROS packages (`team_wpi.tar`, `team_wpi.zip`, `team_wpi.rar`) from this Git repo and extract it
+1. Extract files from `team_wpi.tar.gz` or `team_wpi.zip`
 2. Move the folder `team_wpi` into your instance of FMRB `integrators_workspace/src` folder created in step 2.2.2 of the documentation. Alternatively, symlink the `team_wpi` folder into `integrators_workspace/src` created in step 2.2.2 of the documentation
 3. Rebuild the ROS package using `catkin_make install` in the `integrators_workspace` folder
 4. Open another terminal window in `integrators_workspace` and source both windows `source install/setup.bash`
@@ -17,7 +17,7 @@ Please see FMRB's Github (https://github.com/fmrchallenge/fmrbenchmark) and its 
 6. Run `roslaunch team_wpi_integrator_chains wpi_solution_01.launch` in another window. The second controller can be run by using `wpi_solution_02.launch` instead
 
 ## 2D and 3D overlay plots (as shown in screenshot)
-A 2D and 3D plotting tool was created that overlays the generated paths with the goal and obstacle regions in 2D or 3D: `tdstat_2d_3d_overlay.py`
+A 2D and 3D plotting tool `tdstat_2d_3d_overlay.py` was created that overlays the generated paths with the goal and obstacle regions in 2D or 3D
 
 To use it for 2D overlays, run this from your `integrators_workspace` folder `python $TEAM_WPI/tdstat_2d_3d_overlay.py -t 0 --traj --state "0,1" mydata.json` where `$TEAM_WPI` is the folder path to this GitHub repo on your machine
 
