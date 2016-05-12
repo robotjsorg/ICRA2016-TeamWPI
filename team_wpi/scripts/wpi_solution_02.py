@@ -96,12 +96,11 @@ def main(imon):
     goals = imon.prob.goals
     obstacles = imon.prob.obstacles
 
-
     print("-------------------")
-    print("Number of Goals")
-    print(len(goals))
-    print("Number of Obstacles")
-    print(len(obstacles))
+    print("Number of Dimensions: " + str(n))
+    print("Number of Integrators: " + str(m))
+    print("Number of Goals: " + str(len(goals)))
+    print("Number of Obstacles: " + str(len(obstacles)))
 
     # Get start position
     start = init[0:n]
@@ -179,7 +178,7 @@ def main(imon):
             current = samples + 1
 
 if __name__ == "__main__":
-    rospy.init_node("prm_waypoint_lqr", anonymous=True)
+    rospy.init_node("wpi_solution_02", anonymous=True)
     imon = InstanceMonitor()
     number_trials = rospy.get_param('/number_trials', None)
     trial_counter = 0

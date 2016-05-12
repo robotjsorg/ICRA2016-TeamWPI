@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.8.3)
-project (team_wpi_integrator_chains)
+project (team_wpi)
 
 find_package (catkin REQUIRED COMPONENTS rospy dynamaestro)
 
@@ -15,33 +15,6 @@ install (FILES launch/wpi_solution_01.launch
 )
 install (FILES launch/wpi_solution_02.launch
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/launch
-)
-
-#                               #
-#                               #
-# TRIAL GENERATION CONFIG FILES #
-#                               #
-#                               #
-install (FILES trialconf/mc-small-out1-order2.json
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/trialconf
-)
-install (FILES trialconf/mc-small-out2-order3.json
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/trialconf
-)
-install (FILES trialconf/mc-small-out2only-order3.json
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/trialconf
-)
-install (FILES trialconf/mc-small-out3-order3.json
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/trialconf
-)
-install (FILES trialconf/mc-small-out3only-order3.json
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/trialconf
-)
-install (FILES trialconf/mc-small-out4only-order3.json
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/trialconf
-)
-install (FILES trialconf/mc-small-out10-order10.json
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/trialconf
 )
 
 #         #
