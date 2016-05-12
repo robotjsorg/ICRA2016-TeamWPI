@@ -1,3 +1,5 @@
+![Team WPI Integrator Chains Screenshots](https://raw.githubusercontent.com/jmcmahon443/team_wpi/master/team_wpi_screenshots.png?token=ABFAZZH5YBV_b0xQE6uMJPzYl9E4Q691ks5XPh6BwA%3D%3D)
+
 # Team WPI Integrator Chains
 A submission to the FMRBenchmark contest by California Institute of Technology <http://fmrchallenge.org/> at ICRA 2016. Team WPI submits two controllers to the Scaling Chains of Integrators domain, `wpi_solution_01` and `wpi_solution_02`
 
