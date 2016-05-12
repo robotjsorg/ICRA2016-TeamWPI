@@ -107,7 +107,7 @@ def main(imon):
     start = tuple(start)
 
     # Number of waypoints in between goal regions
-    samples = 10 # 5*n
+    samples = 8*n
 
     # LQR controller
     A = np.diag(np.ones((m - 1)*n), k=n)

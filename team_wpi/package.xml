@@ -1,5 +1,5 @@
 <package>
-  <name>team_wpi/name>
+  <name>team_wpi</name>
   <version>0.0.0</version>
   <description>
     Team WPI's submission for the "scaling chains of integrators" problem domain.
