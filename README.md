@@ -1,5 +1,3 @@
-![SCOI-SS](https://raw.githubusercontent.com/jmcmahon443/Scaling-Chains-of-Integrators/master/SS1.png?token=ABFAZcuhfn_M0e1kLNgK9CPb5_AvvAbiks5XPTSLwA%3D%3D)
-
 # Team WPI Integrator Chains
 A submission to the FMRBenchmark contest by California Institute of Technology <http://fmrchallenge.org/> at ICRA 2016. Team WPI submits two controllers to the Scaling Chains of Integrators domain, `wpi_solution_01` and `wpi_solution_02`
 
