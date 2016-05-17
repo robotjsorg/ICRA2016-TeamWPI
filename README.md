@@ -13,7 +13,7 @@ Please see FMRB's Github (https://github.com/fmrchallenge/fmrbenchmark) and its 
 3. Rebuild the ROS package using `catkin_make install` in the `integrators_workspace` folder
 4. Open another terminal window in `integrators_workspace` and source both windows `source install/setup.bash`
 5. Run the FMRB trial runner in one window with `python $FMRBENCHMARK/domains/integrator_chains/trial-runner.py -l -f mydata.json src/sci_concrete_examples/trialconf/mc-small-out3-order3.json`
-6. Run `roslaunch team_wpi_integrator_chains wpi_solution_01.launch` in another window. The second controller can be run by using `wpi_solution_02.launch` instead
+6. Run `roslaunch team_wpi wpi_solution_01.launch` in another window. The second controller can be run by using `wpi_solution_02.launch` instead
 
 ## 2D and 3D overlay plots (as shown in screenshot)
 A 2D and 3D plotting tool `tdstat_2d_3d_overlay.py` was created that overlays the generated paths with the goal and obstacle regions in 2D or 3D
