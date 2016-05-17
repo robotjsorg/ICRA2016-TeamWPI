@@ -5,7 +5,7 @@ import numpy as np
 import numpy.linalg as la
 from control import lqr
 
-import roslib; roslib.load_manifest('team_wpi_integrator_chains')
+import roslib; roslib.load_manifest('team_wpi')
 import rospy
 from std_msgs.msg import Header
 from integrator_chains_msgs.msg import VectorStamped, Vector, ProblemInstanceJSON
@@ -107,7 +107,7 @@ def main(imon):
     start = tuple(start)
 
     # Number of waypoints in between goal regions
-    samples = 8*n
+    samples = 10
 
     # LQR controller
     A = np.diag(np.ones((m - 1)*n), k=n)
@@ -168,7 +168,7 @@ def main(imon):
     while (not rospy.is_shutdown() ):
         lqrc = LQRController("input", "state", A, K, waypoints[current], Q, R, realizable=realizable)
         while (not rospy.is_shutdown() and not lqrc.trial_ended and ((lqrc.error is None) or (la.norm(lqrc.error) > 0.4))): # 0.01
-            time.sleep(0.5)
+            time.sleep(0.05)
         lqrc.unregister()
         if lqrc.trial_ended:
             return

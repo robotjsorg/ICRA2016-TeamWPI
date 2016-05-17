@@ -5,7 +5,7 @@ import random
 import numpy as np
 import numpy.linalg as la
 
-import roslib; roslib.load_manifest('team_wpi_integrator_chains')
+import roslib; roslib.load_manifest('team_wpi')
 import rospy
 from std_msgs.msg import Header
 from fmrb import integrator_chains

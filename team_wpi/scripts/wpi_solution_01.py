@@ -5,7 +5,7 @@ import numpy as np
 import numpy.linalg as la
 from control import lqr
 
-import roslib; roslib.load_manifest('team_wpi_integrator_chains')
+import roslib; roslib.load_manifest('team_wpi')
 import rospy
 from std_msgs.msg import Header
 from integrator_chains_msgs.msg import VectorStamped, Vector, ProblemInstanceJSON
